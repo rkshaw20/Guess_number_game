@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
+
+:root {
+  --primary-color: white;
+  --secondary-color: grey;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  background-image: linear-gradient(60deg, #ffdee9 0%, #b5fffc 100%);
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  
+}
+/* .container-container-1{
+  background-color: red;
+} */
+.container-container-1,
+.container-container-2,
+.container-container-3,
+.container-container-4,
+.container-container-5,
+.container-container-6 {
+ 
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  min-width: 500px;
+  max-width: 600px;
+  padding: 2rem;
+  margin: auto;
+  border-radius: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+p {
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+.nxt-nxt-1,
+.nxt-nxt-2,
+.nxt-nxt-3,
+.nxt-nxt-4,
+.nxt-nxt-5,
+.nxt-nxt-6 {
+  padding: 0.3rem;
+  margin: 0.3rem;
+  background-color: #9599e2;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  color: white;
+  border: 3px solid white;
+}
+.nxt-nxt-1:hover,
+.nxt-nxt-2:hover,
+.nxt-nxt-3:hover,
+.nxt-nxt-4:hover,
+.nxt-nxt-5:hover,
+.nxt-nxt-6:hover {
+  color: #9599e2;
+  background-color: white;
+  border: 3px solid #9599e2;
+  cursor: pointer;
+}
+footer {
+  padding: 1rem;
+  margin: 0.2rem;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
