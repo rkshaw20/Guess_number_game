@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
 
 :root {
-  --primary-color: white;
-  --secondary-color: grey;
+  --primary-color:#757acf ;
 }
 
 body {
@@ -14,7 +13,7 @@ body {
 }
 
 h1{
-  color:#757acf;
+  color:var(--primary-color);
 }
 .container-container-1,
 .container-container-2,
@@ -25,7 +24,7 @@ h1{
  
   background-color: #8bc6ec;
   background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
-  /* min-width: ; */
+  min-width: 300px;
   max-width: 600px;
   padding: 2rem;
   margin: auto;
@@ -206,19 +205,3 @@ a{
   color: inherit;
   text-decoration: none;
 }
-
-/* @media (max-width: 425px){
-  body{
-    max-width: 95%;
-    width: 100%;
-  }
-  .container-container-1,
-.container-container-2,
-.container-container-3,
-.container-container-4,
-.container-container-5,
-.container-container-6{
-  max-width: 50%;
-  width:100%;
-}
-} */
