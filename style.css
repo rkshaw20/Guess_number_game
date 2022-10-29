@@ -207,9 +207,17 @@ a{
   text-decoration: none;
 }
 
-/* @media only screen and (max-width:500px){
+@media (max-width: 425px){
   body{
     max-width: 95%;
     width: 100%;
   }
-} */
+  .container-container-1,
+.container-container-2,
+.container-container-3,
+.container-container-4,
+.container-container-5,
+.container-container-6{
+  width:100%;
+}
+}
